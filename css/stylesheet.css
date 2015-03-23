@@ -9,7 +9,12 @@ nav {
   padding-right: 6%;
 }
 
+/*.active {
+  color: #5F9EA0 !important;
+}*/
+
 .navbar-brand {
+  color: #5F9EA0 !important;
   font-size: 19px !important;
 }
 
@@ -20,6 +25,7 @@ html {
 body { 
   height: 100%;
   padding-top: 50px;
+  position: relative;
 }
 
 #firelight-photo {
@@ -42,7 +48,6 @@ body {
   box-shadow: 0 -1px 0 #bababa;
   width: 100%;
   background-image: url("../img/txture.png");
-  height: 300px;
 }
 
 h3 {
@@ -112,21 +117,92 @@ h4 {
 }
 
 .btn-default {
-  background-color: rgb(77, 98, 112) !important;
+  background-color: #a9a9a9 !important;
   color: white !important;
   text-transform: uppercase;
   font-family: 'Poiret One', cursive;
   outline: none !important;
+  border: none;
 }
 
 .btn-default:hover {
-  background-color: rgb(68, 92, 104) !important;
-}
-
-#contact-title {
-  color: white;
+  background-color: #5F9EA0 !important;
+  border: none;
 }
 
 #contact-hr {
-  border-color: #b9b9b9;
+  border-color: #3d3d3d;
+}
+
+#about {
+  height: 400px;
+}
+
+#about-me-info {
+  padding: 0 6%;
+  font-size: 16px;
+}
+
+#linkedin {
+  position: absolute;
+  z-index: 2;
+  left: 7.5%;
+  top: 6.3%;
+}
+
+#linkedin:hover {
+  content: url("../img/linkedinhover.png");
+  position: absolute;
+  z-index: 3;
+  left: 7.5%;
+  top: 6.3%;
+}
+
+#github {
+  position: absolute;
+  z-index: 2;
+  left: 7.5%;
+  top: 6.3%;
+}
+
+#github:hover {
+  content: url("../img/githubhover.png");
+  position: absolute;
+  z-index: 3;
+  left: 7.5%;
+  top: 6.3%;
+}
+
+#email {
+  position: absolute;
+  z-index: 2;
+  left: 7.5%;
+  top: 6.3%;
+}
+
+#email:hover {
+  content: url("../img/emailhover.png");
+  position: absolute;
+  z-index: 3;
+  left: 7.5%;
+  top: 6.3%;
+}
+
+.contact-background {
+  background-color: #A9A9A9;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+
+.center-buttons {
+  text-align: center;
+}
+
+#copyright {
+  text-align: center;
+  color: #767676;
 }

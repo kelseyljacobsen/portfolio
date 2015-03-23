@@ -30,13 +30,13 @@
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav pull-right">
                   <li>
-                      <a href="#projects">Projects</a>
+                      <a class="links" id="proj" href="#projects">Projects</a>
                   </li>
                   <li>
-                      <a href="#about">About</a>
+                      <a class="links" id="ab" href="#about">About</a>
                   </li>
                   <li>
-                      <a href="#contact">Contact</a>
+                      <a class="links" id="con" href="#contact">Contact</a>
                   </li>
               </ul>
           </div>
@@ -45,56 +45,59 @@
       <!-- /.container -->
   </nav>
 
-  <body>
+  <body data-spy="scroll">
       
     <div id="firelight-photo">
     </div>
 
-    <section id="projects">
-      <div class="container-fluid">
-        <h3>web development projects</h3>
-        <hr>
-        <div class="row" id="row1">
-          <div class="col-md-6">
-            <img class="project-img" id="tictactoe" src="img/tictactoeBW.png">
-            <div class="info" id="tictactoe-info">
-              <h4>Chalkboard TicTacToe</h4>
-              <p>Chalkboard Tic-Tac-Toe is a web version of the classic two-player paper and pencil game. It must be played on two screens simultaneously, so find a friend and begin playing! The game was built with HTML5, CSS3, CSS animations, AngularJS, and Firebase.</p>
-              <a href="http://chalkboardtictactoe.firebaseapp.com" target="_blank">
-                <div class="button">
-                  <button class="btn btn-default">Take me there</button>
-                </div>
-              </a>
+    <div id="projects">
+      <!-- <div id="projects"> -->
+        <div class="container-fluid">
+          <h3>recent projects</h3>
+          <hr>
+          <div class="row" id="row1">
+            <div class="col-sm-6">
+              <img class="project-img" id="tictactoe" src="img/tictactoeBW.png">
+              <div class="info" id="tictactoe-info">
+                <h4>Chalkboard TicTacToe</h4>
+                <p>Chalkboard Tic-Tac-Toe is a web version of the classic two-player paper and pencil game. It must be played on two screens simultaneously, so find a friend and begin playing! The game was built with HTML5, CSS3, CSS animations, AngularJS, and Firebase.</p>
+                <a href="http://chalkboardtictactoe.firebaseapp.com" target="_blank">
+                  <div class="button">
+                    <button class="btn btn-default">Take me there</button>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <img class="project-img" id="college" src="img/collegeBW.png">
-            <div class="info" id="college-info">
-              <h4>College Organizer</h4>
-              <p>Applying to college can be overwhelming. College Organizer hopes to make the whole process a little easier by tracking the colleges about which students feel confident and those they don't. Students can search through the top 370+ colleges and universities in the country, view important admissions criteria particular to each college, and add the schools to their Safety, Target, and Reach lists in an effort to keep track of their searches and stay organized. The app was built using Ruby on Rails and MongoDB and is deployed via Heroku.</p>
-              <a href="http://college-organizer-app.herokuapp.com" target="_blank">
-                <div class="button">
-                  <button class="btn btn-default">Take me there</button>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
 
-        <div class="row" id="row2">
-          <div class="col-md-6">
+            <div class="col-sm-6">
+              <img class="project-img" id="college" src="img/collegeBW.png">
+              <div class="info" id="college-info">
+                <h4>College Organizer</h4>
+                <p>Applying to college can be overwhelming. College Organizer hopes to make the whole process a little easier by tracking the colleges about which students feel confident and those they don't. Students can search through the top 370+ colleges and universities in the country, view important admissions criteria particular to each college, and add the schools to their Safety, Target, and Reach lists in an effort to keep track of their searches and stay organized. Because there is no available API with this information, the data was compiled from various sources and entered into the database manually. The app was built using Ruby on Rails and MongoDB and is deployed via Heroku.</p>
+                <a href="http://college-organizer-app.herokuapp.com" target="_blank">
+                  <div class="button">
+                    <button class="btn btn-default">Take me there</button>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row" id="row2">
+            <div class="col-sm-6">
               <img class="project-img" id="geomancy" src="img/geomancyBW.png">
               <div class="info" id="geomancy-info">
                 <h4>Geomancy</h4>
-                <p>Geomancy is an exciting music discovery app that allows users to explore popular new music around the globe. When a user clicks on one of 50+ cities from around the globe, Geomancy loads a playlist of the most popular artists in that city. When the user plays a track, Geomancy populates a feed of the latest tweets that tag the artist.  It utilizes three APIs (WebGL, Soundcloud, and Twitter), was built using HTML5, CSS3, Rails, AngularJS, JavaScript, jQuery, and PostgreSQL, and it is deployed via Heroku.</p>
+                <p>Geomancy is an exciting music discovery app that allows users to explore popular new music around the globe. When a user clicks on one of 50+ cities from around the globe, Geomancy loads a playlist of the most popular artists in that city. When the user plays a track, Geomancy populates a feed of the latest tweets that tag the artist. It is a group project that utilizes three APIs (WebGL, Soundcloud, and Twitter), was built using HTML5, CSS3, Rails, AngularJS, JavaScript, jQuery, and PostgreSQL, and it is deployed via Heroku.</p>
                 <a href="http://geomancymusic.herokuapp.com" target="_blank">
                   <div class="button">
                     <button class="btn btn-default">Take me there</button>
                   </div>
                 </a>
               </div>
-          </div>
-          <div class="col-md-6">
+            </div>
+
+            <div class="col-sm-6">
               <img class="project-img" id="ortho-la" src="img/ortho-laBW.png">
               <div class="info" id="ortho-la-info">
                 <h4>ORTHO-LA</h4>
@@ -105,24 +108,68 @@
                   </div>
                 </a>
               </div>
+            </div>
           </div>
         </div>
+      
 
-        <div id="about">
+      <div id="about">
+        <div class="container-fluid">
           <h3>about me</h3>
           <hr>
+          <div id="about-me-info">
+            <p>Born, raised, and currently living in Los Angeles, I am a Teach For America alum-turned-web developer with a B.A. in English from Northwestern University and a M.Ed. in curriculum & instruction from University of Nevada, Las Vegas.</p>
+            <p>Over the 4+ years I spent teaching middle and high school English and math, I met many students who found school uninteresting and impractical. To combat this, I strove to make lessons as engaging and as relevant as possible by using as much technology as possible. In my attempts to teach technology to my students, however, I awoke a passion for technology in myself. The tech lessons were not only the ones my students most enjoyed learning, but they were also the ones I most enjoyed teaching.</p>
+            <p>I took the Web Development Immersive course at General Assembly to pursue my love of technology and design full-time. My experiences in education, in conjunction with the development skills I learned as a student at GA, have inspired me to build creative web applications that serve a genuine, practical purpose and provide a unique, effortless user-experience. While I mainly work with Ruby on Rails and AngularJS, I love to learn new languages and frameworks.</p>
+          </div>
         </div>
-      
       </div>
+    
 
       <div id="contact">
         <div class="container-fluid">
-          <h3 id="contact-title">contact</h3>
-          <hr id="contact-hr">
-
+        <br>
+        <br>
+          <div id="contact-button-div">
+            <div class="col-xs-3">
+            </div>
+            <div class="col-xs-2">
+              <div class="center-buttons">
+                <a href="http://www.linkedin.com/in/kelseyljacobsen" target="_blank">
+                  <div class="contact-background">
+                    <img class="contact-links" id="linkedin" src="img/linkedin.png">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-xs-2">
+              <div class="center-buttons">
+                <a href="http://github.com/kelseyljacobsen" target="_blank">
+                  <div class="contact-background">
+                    <img class="contact-links" id="github" src="img/github.png">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-xs-2">
+              <div class="center-buttons">
+                <a href="mailto:kelseyljacobsen@gmail.com">
+                  <div class="contact-background">
+                    <img class="contact-links" id="email" src="img/email.png">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-xs-3">
+            </div>
+          </div>
         </div>
+        <hr id="contact-hr">
+        <p id="copyright">&copy; Kelsey L. Jacobsen, 2015</p>
+        <br>
       </div>
-    </section>
+
+   </div>
 
 
 

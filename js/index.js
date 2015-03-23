@@ -49,4 +49,19 @@ $(document).ready(function() {
      }
   })
 
+  // $('#proj').click(function() {
+  //   $('.links').removeClass('active');
+  //   $(this).addClass('active');
+  // })
+
+  // $('#ab').click(function() {
+  //   $('.links').removeClass('active');
+  //   $(this).addClass('active');
+  // })
+
+  // $('#con').click(function() {
+  //   $('.links').removeClass('active');
+  //   $(this).addClass('active');
+  // })
+
 });
