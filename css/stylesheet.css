@@ -5,6 +5,8 @@ nav {
   border-bottom: 5px solid #d0d0d0 !important;
   box-shadow: 0 1px 0 #bababa !important;
   background-image: url("../img/txture.png") !important;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 
 .navbar-brand {
@@ -30,7 +32,6 @@ body {
   width: 100%;
   position: relative;
   top: 500px;
-  height: 500px; /* Demo purposes */
   background-image: url("../img/crossword.png");
   z-index: 10;
 }
@@ -44,7 +45,88 @@ body {
   height: 300px;
 }
 
-*/
+h3 {
+  padding-left: 6%;
+  font-family: 'Poiret One', cursive !important;
+}
 
+hr {
+  margin: 0 6%;
+}
 
+#row1, #row2 {
+  padding: 0 6%;
+}
 
+.project-img {
+  width: 100%;
+  margin: 3% 0;
+  border: 1px solid #b9b9b9;
+  padding: 5px;
+  background: #d0d0d0;
+
+}
+
+.project-img:hover {
+  background: #3d3d3d;
+  border: 1px solid black;
+}
+
+.project-img-hover {
+  background: #3d3d3d;
+  border: 1px solid black;
+}
+
+#tictactoe:hover {
+  content: url("../img/tictactoe.png");
+  cursor: pointer;
+}
+
+#college:hover {
+  content: url("../img/college.png");
+  cursor: pointer;
+}
+
+#geomancy:hover {
+  content: url("../img/geomancy.png");
+  cursor: pointer;
+}
+
+#ortho-la:hover {
+  content: url("../img/ortho-la.png");
+  cursor: pointer;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+}
+
+h4 {
+  font-family: 'Poiret One', cursive !important;
+}
+
+.button {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.btn-default {
+  background-color: rgb(77, 98, 112) !important;
+  color: white !important;
+  text-transform: uppercase;
+  font-family: 'Poiret One', cursive;
+  outline: none !important;
+}
+
+.btn-default:hover {
+  background-color: rgb(68, 92, 104) !important;
+}
+
+#contact-title {
+  color: white;
+}
+
+#contact-hr {
+  border-color: #b9b9b9;
+}

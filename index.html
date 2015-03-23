@@ -2,18 +2,20 @@
 <html>
   <head>
     <title>Kelsey L Jacobsen</title>
-  <!--<script src="js/main.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+    <script src="js/index.js"></script>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Oswald:700|Droid+Serif:400,700italic" rel="stylesheet" type="text/css" />
     <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
   </head>
 
 <!-- Navigation -->
   <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
+      <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -49,22 +51,70 @@
     </div>
 
     <section id="projects">
-      <div class="container">
-        <h3>Projects</h3>
-        Lorem ipsum dolor sit amet, eam id omnes tractatos periculis, vel ludus partem postulant ea. Duo te sumo graece maluisset. Ut eos convenire constituam, ad meis nostrud diceret vis. Mel cu ipsum mollis commodo.
+      <div class="container-fluid">
+        <h3>web development projects</h3>
+        <hr>
+        <div class="row" id="row1">
+          <div class="col-md-6">
+            <img class="project-img" id="tictactoe" src="img/tictactoeBW.png">
+            <div class="info" id="tictactoe-info">
+              <h4>Chalkboard TicTacToe</h4>
+              <p>Chalkboard Tic-Tac-Toe is a web version of the classic two-player paper and pencil game. It must be played on two screens simultaneously, so find a friend and begin playing! The game was built with HTML5, CSS3, CSS animations, AngularJS, and Firebase.</p>
+              <a href="http://chalkboardtictactoe.firebaseapp.com" target="_blank">
+                <div class="button">
+                  <button class="btn btn-default">Take me there</button>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class="project-img" id="college" src="img/collegeBW.png">
+            <div class="info" id="college-info">
+              <h4>College Organizer</h4>
+              <p>Applying to college can be overwhelming. College Organizer hopes to make the whole process a little easier by tracking the colleges about which students feel confident and those they don't. Students can search through the top 370+ colleges and universities in the country, view important admissions criteria particular to each college, and add the schools to their Safety, Target, and Reach lists in an effort to keep track of their searches and stay organized. The app was built using Ruby on Rails and MongoDB and is deployed via Heroku.</p>
+              <a href="http://college-organizer-app.herokuapp.com" target="_blank">
+                <div class="button">
+                  <button class="btn btn-default">Take me there</button>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
 
-        Ut aperiri nostrum signiferumque sit, inermis appareat consectetuer est id. Option delenit deseruisse eos ea, vel mutat melius eu. Mei id semper pertinax aliquando, dicunt comprehensam ei vel, ea mazim omnesque duo. Mazim copiosae ad vim, ceteros albucius per cu, ut his adhuc definitionem. Nam lucilius torquatos gloriatur ei, ex illum fabulas vim.
+        <div class="row" id="row2">
+          <div class="col-md-6">
+              <img class="project-img" id="geomancy" src="img/geomancyBW.png">
+              <div class="info" id="geomancy-info">
+                <h4>Geomancy</h4>
+                <p>Geomancy is an exciting music discovery app that allows users to explore popular new music around the globe. When a user clicks on one of 50+ cities from around the globe, Geomancy loads a playlist of the most popular artists in that city. When the user plays a track, Geomancy populates a feed of the latest tweets that tag the artist.  It utilizes three APIs (WebGL, Soundcloud, and Twitter), was built using HTML5, CSS3, Rails, AngularJS, JavaScript, jQuery, and PostgreSQL, and it is deployed via Heroku.</p>
+                <a href="http://geomancymusic.herokuapp.com" target="_blank">
+                  <div class="button">
+                    <button class="btn btn-default">Take me here</button>
+                  </div>
+                </a>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <img class="project-img" id="ortho-la" src="img/ortho-laBW.png">
+              <div class="info" id="ortho-la-info">
+                <h4>ORTHO-LA</h4>
+                <p>ACL surgery requires a surgeon who specializes in knee surgery, just as hip replacement surgery requires a surgeon who specializes in hip surgery. A directory of the very best orthopedic surgeons in Los Angeles, ORTHO-LA does what Yelp, HealthGrades, Vitals, and other directories do not: it categorizes the surgeons by their specialties. Rather than scour the internet and various review sites, ORTHO-LA users can easily find and rate/review surgeons who perform a patient's necessary surgery–and perform it well. The doctors listed in ORTHO-LA's directory are the highest rated and most awarded surgeons across multiple review sites. 10-12 surgeons were selected from each specialty. The app was built using Ruby on Rails, AngularJS, JavaScript, jQuery, and PostgreSQL, and it is deployed via Heroku.</p>
+                <a href="http://ortho-la.herokuapp.com" target="_blank">
+                  <div class="button">
+                    <button class="btn btn-default">Take me there</button>
+                  </div>
+                </a>
+              </div>
+          </div>
+        </div>
 
-        Et brute molestiae quaerendum eam, aliquip mnesarchum te vim. Eum perfecto consulatu theophrastus an, suas neglegentur sea at, putent everti cu usu. Veri animal voluptatibus te usu. Mea ex dolor debitis, idque nusquam oporteat ut nec, augue epicurei ius te. Ocurreret inciderint quo et. Quo dicant mnesarchum ut, ea pro accumsan iracundia.
-
-        Vel id ferri dolores tractatos, nec nobis habemus cu, per id sale aeque. Mei equidem delicatissimi ne, ea pri minim scaevola gloriatur. Unum ullamcorper pri ei, no eam quot sale utroque. Ad nam diam nihil, vis facilis molestiae ei. Ex mei accusam recusabo democritum. Ea cum consul partiendo consequuntur, ad modus facer instructior has.
-
-        Sea id elit natum nominavi. Doming mandamus no qui, ad mei percipit invidunt, sea cu facete tincidunt. Eos ei cibo fierent, qui aliquid suavitate euripidis te. Utinam albucius conclusionemque nam et, splendide mediocritatem concludaturque sea in.
+      
       </div>
 
       <div id="contact">
-        <div class="container">
-          <h3>Contact</h3>
+        <div class="container-fluid">
+          <h3 id="contact-title">contact</h3>
+          <hr id="contact-hr">
 
         </div>
       </div>
