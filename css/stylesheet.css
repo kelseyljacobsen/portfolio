@@ -9,11 +9,34 @@ nav {
   padding-right: 6%;
 }
 
-/*.active {
-  color: #5F9EA0 !important;
-}*/
-
 .navbar-brand {
+  cursor: default;
+}
+
+#brand-icon-img {
+  position: absolute;
+  z-index: 4;
+  top: 18%;
+  left: 15%;
+  padding-left: 6%;
+}
+
+#brand-icon-background {
+  position: relative;
+  z-index: 3;
+  top: -30px;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border: 5px solid #395f60;
+  background-color: #5F9EA0;
+}
+
+#name {
+  position: absolute;
+  z-index: 4;
+  top: 30%;
+  left: 17%;
   color: #5F9EA0 !important;
   font-size: 19px !important;
 }
