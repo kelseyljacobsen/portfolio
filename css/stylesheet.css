@@ -78,6 +78,7 @@ body {
 h3 {
   padding-left: 6%;
   font-family: 'Poiret One', cursive !important;
+  text-transform: uppercase;
 }
 
 hr {
@@ -169,62 +170,37 @@ h4 {
 }
 
 #linkedin {
-  position: absolute;
-  z-index: 2;
-  left: 7.5%;
-  top: 6.3%;
-}
-
-#linkedin:hover {
-  content: url("../img/linkedinhover.png");
-  position: absolute;
-  z-index: 3;
-  left: 7.5%;
-  top: 6.3%;
-}
-
-#github {
-  position: absolute;
-  z-index: 2;
-  left: 7.5%;
-  top: 6.3%;
-}
-
-#github:hover {
-  content: url("../img/githubhover.png");
-  position: absolute;
-  z-index: 3;
-  left: 7.5%;
-  top: 6.3%;
+  margin-top: 13%;
 }
 
 #email {
-  position: absolute;
-  z-index: 2;
-  left: 7.5%;
-  top: 6.3%;
+  margin-top: 12%;
 }
 
-#email:hover {
-  content: url("../img/emailhover.png");
-  position: absolute;
-  z-index: 3;
-  left: 7.5%;
-  top: 6.3%;
+#github {
+  margin-top: 10%;
+  width: 40px;
 }
 
 .contact-background {
   background-color: #A9A9A9;
-  height: 56px;
-  width: 56px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
   position: relative;
   z-index: 1;
   display: inline-block;
+  border: 5px solid #575757;
+}
+
+.contact-background:hover {
+  background-color: #5F9EA0;
+  border: 5px solid #395f60;
 }
 
 .center-buttons {
   text-align: center;
+  margin: auto;
 }
 
 #copyright {
