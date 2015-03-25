@@ -220,12 +220,15 @@ h4 {
   }
 } 
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   #firelight-photo {
     height: 60%;
   }
   #projects {
     top: 60%;
+  }
+  #about {
+    max-height: 40%;
   }
 }
 
