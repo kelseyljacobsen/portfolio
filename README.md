@@ -4,3 +4,7 @@ Languages Used
 * HTML5
 * CSS3
 * JavaScript/jQuery
+
+Hosted With
+* Amazon S3 
+* Amazon Route 53
