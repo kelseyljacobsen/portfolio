@@ -49,19 +49,25 @@ $(document).ready(function() {
      }
   })
 
-  // $('#proj').click(function() {
-  //   $('.links').removeClass('active');
-  //   $(this).addClass('active');
-  // })
+  $("#proj").on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+       scrollTop: $("#projects").offset().top
+    }, 800);
+  });
 
-  // $('#ab').click(function() {
-  //   $('.links').removeClass('active');
-  //   $(this).addClass('active');
-  // })
+  $("#ab").on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+       scrollTop: $("#about").offset().top
+    }, 800);
+  });
 
-  // $('#con').click(function() {
-  //   $('.links').removeClass('active');
-  //   $(this).addClass('active');
-  // })
+  $("#con").on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+       scrollTop: $("#contact").offset().top
+    }, 800);
+  });
 
 });
