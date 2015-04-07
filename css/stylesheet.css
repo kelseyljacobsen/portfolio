@@ -160,13 +160,11 @@ h4 {
   color: white !important;
   text-transform: uppercase;
   font-family: 'Poiret One', cursive;
-  outline: none !important;
-  border: none;
 }
 
 .btn-default:hover {
   background-color: #5F9EA0 !important;
-  border: none;
+  border: 1px solid #5F9EA0 !important;
 }
 
 #contact-hr {
