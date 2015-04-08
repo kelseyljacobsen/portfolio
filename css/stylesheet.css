@@ -62,13 +62,14 @@ body {
   height: 100%;
   padding-top: 50px;
   position: relative;
+  background-image: url("../img/crossword.png");
 }
 
 #firelight-photo {
-  background-image: url("../img/firelight2.png") ;
+  background-image: url("../img/firelight3.png") ;
   background-size: cover;
   width: 100%;
-  height: 90%;
+  height: 100%;
   background-position: center;
   position: fixed;
   margin-left: -30px;
@@ -259,7 +260,19 @@ h4 {
     font-size: 50px;
   }
   #projects {
-    top: 80%;
+    top: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  #projects {
+    top: 40%;
+  }
+}
+
+@media (max-width: 771px) {
+  #projects {
+    top: 30%;
   }
 }
 
@@ -274,7 +287,7 @@ h4 {
     font-size: 30px;
   }
   #projects {
-    top: 60%;
+    top: 20%;
   }
 }
 
@@ -289,6 +302,6 @@ h4 {
     font-size: 20px;
   }
   #projects {
-    top: 50%;
+    top: 15%;
   }
 }
