@@ -69,16 +69,17 @@ body {
   background-image: url("../img/firelight3.png") ;
   background-size: cover;
   width: 100%;
-  height: 100%;
+  height: 90%;
   background-position: center;
   position: fixed;
   margin-left: -30px;
+  z-index: 1;
 }
 
 .title {
   text-align: center;
   position: relative;
-  z-index: 11;
+  z-index: 10;
   margin-top: 20%;
   font-family: 'Poiret One', cursive !important;
   color: white;
@@ -238,8 +239,15 @@ h4 {
 
 .center-buttons {
   text-align: center;
-  margin: auto;
 }
+
+.col-xs-2 {
+  padding: 0px !important;
+}
+
+/*.add-padding {
+  margin-right: 1% !important;
+}*/
 
 #copyright {
   text-align: center;
@@ -303,5 +311,19 @@ h4 {
   }
   #projects {
     top: 15%;
+  }
+  .title {
+    margin-top: 30%;
+  }
+  #linkedin, #email {
+    width: 26px;
+    height: 26px;
+  }
+  #github {
+    width: 32px;
+  }
+  .contact-background {
+    width: 48px;
+    height: 48px;
   }
 }
